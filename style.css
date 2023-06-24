@@ -1,0 +1,39 @@
+
+.container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .flex-direction-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  ul,li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+
+  hr {
+    border: none; /* Remove the default border */
+    height: 20px; /* Set the height of the rope-like element */
+    background: url('hrstripe.webp') repeat-x center; /* Specify the rope-like background image and its repetition */
+    margin: 20px 0; /* Add some margin above and below the rope-like element */
+  }
+
+
+  
